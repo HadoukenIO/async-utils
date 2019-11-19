@@ -33,8 +33,7 @@
     "jest": "^24.9.0"
   },
   "peerDependencies": {
-    "openfin-service-signal": "^1.0.0",
-    "openfin-service-tooling": "^1.0.22"
+    "openfin-service-signal": "^1.0.0"
   },
   "precommit": {
     "run": [
