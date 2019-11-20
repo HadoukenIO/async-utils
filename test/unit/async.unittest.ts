@@ -30,15 +30,15 @@ describe('When given random data', () => {
     });
 
     test('`serialMap` gives an equivalent result to `map`', async () => {
-        await runAsyncFunction(tables, testSerialMap, maxDelayPerEntry);
+        await runAsyncFunction(tables, testSerialMap, maxDelayPerEntry)
     });
 
     test('`serialFilter` gives an equivalent result to `filter`', async () => {
-        await runAsyncFunction(tables, testSerialFilter, maxDelayPerEntry);
+        await runAsyncFunction(tables, testSerialFilter, maxDelayPerEntry)
     });
 
     test('`parallelForEach` gives an equivalent result to `forEach`', async () => {
-        await runAsyncFunction(tables, testParallelForEach, maxDelayPerEntry);
+        await runAsyncFunction(tables, testParallelForEach, maxDelayPerEntry)
     });
 
     test('`parallelMap` gives an equivalent result to `map`', async () => {
