@@ -5,7 +5,8 @@
         "outDir": "../dist/test",
         "esModuleInterop": false,
         "experimentalDecorators": true,
-        "emitDecoratorMetadata": true
+        "emitDecoratorMetadata": true,
+        "types": [],
     },
     "exclude": [
         "../node_modules",
