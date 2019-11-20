@@ -6,7 +6,7 @@ type Callback = (entry: TableEntry, index: number, array: Table) => Promise<bool
 type Table = TableEntry[];
 
 interface TableEntry {
-    index: number; 
+    index: number;
     truth: boolean;
     delay: number;
 }
@@ -34,7 +34,7 @@ describe('When given random data', () => {
     });
 
     test('`serialFilter` gives an equivalent result to `filter`', async () => {
-        await runAsyncFunction(tables, testSerialFilter, maxDelayPerEntry)
+        await runAsyncFunction(tables, testSerialFilter, maxDelayPerEntry);
     });
 
     test('`parallelForEach` gives an equivalent result to `forEach`', async () => {
