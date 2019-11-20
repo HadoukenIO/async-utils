@@ -1,6 +1,6 @@
 {
   "name": "openfin-service-async",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -30,7 +30,7 @@
     "openfin-service-tooling": "^1.0.22",
     "pre-commit": "^1.2.2",
     "rimraf": "^2.6.3",
-    "typescript": "^3.7.2"
+    "typescript": "3.4.5"
   },
   "peerDependencies": {
     "openfin-service-signal": "^1.0.0"
